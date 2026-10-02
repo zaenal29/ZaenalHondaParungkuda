@@ -1,0 +1,1923 @@
+{
+  "users": [
+    {
+      "role": "admin",
+      "username": "admin",
+      "passwordHash": "f00ad45e89759b09f09a8efdb208d697566c837be5e4709a2834571745c0e8ce0a1df143b6a1de4ffb12c76f7767a6a30350078a7305a092e3347d79fb6285d2",
+      "salt": "ea86690d4ae679e345e5fe762a5918de",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "id": "user-admin-1"
+    }
+  ],
+  "siteSettings": {
+    "siteName": "Zaenal Abidin Honda Parungkuda",
+    "companyName": "PT Selamat Lestari Mandiri",
+    "branchName": "Cabang Parungkuda",
+    "salesName": "Zaenal Abidin",
+    "address": "Jl. Siliwangi Depan Stasiun No.18, Parungkuda, Kecamatan Parungkuda, Kabupaten Sukabumi, Jawa Barat",
+    "whatsappNumber": "083806109569",
+    "whatsappDefaultMessage": "Assalamualaikum Pak Zaenal Abidin, saya ingin berkonsultasi mengenai pembelian motor Honda di PT Selamat Lestari Mandiri Cabang Parungkuda.",
+    "logoUrl": "",
+    "faviconUrl": "",
+    "heroTitle": "Temukan Motor Honda Impianmu di Parungkuda",
+    "heroSubtitle": "Promo Honda Terbaru dengan Pilihan Kredit Ringan dan Cash Resmi PT Selamat Lestari Mandiri Cabang Parungkuda, Kabupaten Sukabumi.",
+    "heroImage": "/src/assets/images/hero_honda_showroom_1790867348852.jpg",
+    "heroPrimaryBtnText": "Lihat Katalog Motor",
+    "heroPrimaryBtnLink": "#katalog",
+    "heroSecondaryBtnText": "Chat WhatsApp Marketing",
+    "heroSecondaryBtnLink": "whatsapp",
+    "aboutDescription": "PT Selamat Lestari Mandiri Cabang Parungkuda adalah dealer resmi sepeda motor Honda yang berlokasi strategis di Jl. Siliwangi Depan Stasiun No.18, Parungkuda, Kabupaten Sukabumi. Bersama Zaenal Abidin (Marketing Executive Resmi), kami melayani pembelian motor Honda secara Cash maupun Kredit dengan proses cepat, persyaratan mudah, transparan, serta pengiriman unit langsung ke rumah Anda di wilayah Sukabumi dan sekitarnya.",
+    "dealerPhotoUrl": "/src/assets/images/hero_honda_showroom_1790867348852.jpg",
+    "showroomPhotoUrl": "/src/assets/images/motor_matic_sporty_red_1790867362954.jpg",
+    "teamPhotoUrl": "/src/assets/images/dealer_showroom_handover_1790867406762.jpg",
+    "vision": "Menjadi dealer resmi sepeda motor Honda pilihan utama masyarakat Parungkuda dan Kabupaten Sukabumi melalui pelayanan pemasaran yang jujur, cepat, bersahabat, dan terpercaya.",
+    "missions": [
+      "Memberikan kemudahan proses kepemilikan motor Honda baik secara tunai (Cash) maupun cicilan (Kredit) dengan angsuran yang transparan.",
+      "Menyediakan informasi harga OTR, simulasi kredit, ketersediaan warna, dan promo terbaru secara akurat dan responsif.",
+      "Mendampingi konsumen mulai dari konsultasi pemilihan tipe motor, penjemputan berkas persyaratan di rumah, hingga serah terima unit dan STNK/BPKB.",
+      "Menjamin purna jual resmi melalui jaringan bengkel AHASS PT Selamat Lestari Mandiri serta garansi rangka 5 tahun."
+    ],
+    "operationalHours": "Senin – Sabtu: 08.00 – 17.00 WIB · Minggu: 08.00 – 15.00 WIB (Layanan WhatsApp Online 24 Jam)",
+    "googleMapsAddress": "Jl. Siliwangi Depan Stasiun No.18, Parungkuda, Kabupaten Sukabumi, Jawa Barat",
+    "facebookUrl": "https://facebook.com/hondaparungkuda",
+    "instagramUrl": "https://instagram.com/hondaparungkuda",
+    "tiktokUrl": "https://tiktok.com/@hondaparungkuda",
+    "seoTitle": "Zaenal Abidin Honda Parungkuda | Dealer Honda Sukabumi",
+    "seoDescription": "Informasi motor Honda, promo, simulasi kredit, dan layanan pembelian Honda di Parungkuda, Kabupaten Sukabumi.",
+    "themePrimaryColor": "#DC2626"
+  },
+  "tenors": [
+    {
+      "isActive": true,
+      "label": "11 Bulan",
+      "months": 11,
+      "id": "tenor-11"
+    },
+    {
+      "id": "tenor-17",
+      "isActive": true,
+      "label": "17 Bulan",
+      "months": 17
+    },
+    {
+      "isActive": true,
+      "months": 23,
+      "label": "23 Bulan",
+      "id": "tenor-23"
+    },
+    {
+      "months": 29,
+      "label": "29 Bulan",
+      "id": "tenor-29",
+      "isActive": true
+    },
+    {
+      "id": "tenor-35",
+      "isActive": true,
+      "label": "35 Bulan",
+      "months": 35
+    }
+  ],
+  "motorModels": [
+    {
+      "isFeatured": true,
+      "sortOrder": 1,
+      "tagline": "Skutik Irit, Lincah & Favorit Keluarga Indonesia",
+      "id": "model-beat",
+      "category": "Matic",
+      "name": "Honda Beat",
+      "brand": "Honda",
+      "description": "All New Honda BeAT hadir dengan desain sporty kompak, mesin 110cc eSP generasi terbaru yang sangat irit bahan bakar, serta rangka eSAF yang lincah untuk mobilitas harian di Sukabumi.",
+      "slug": "honda-beat"
+    },
+    {
+      "name": "Honda Scoopy",
+      "tagline": "Totally Unique, Gaya Retro Modern Berkelas",
+      "id": "model-scoopy",
+      "slug": "honda-scoopy",
+      "sortOrder": 2,
+      "isFeatured": true,
+      "category": "Matic",
+      "description": "Honda Scoopy memadukan desain ikonik retro modern dengan fitur Smart Key System, USB Power Charger, serta velg 12 inci dengan ban tubeless lebar yang nyaman.",
+      "brand": "Honda"
+    },
+    {
+      "name": "Honda Vario 125",
+      "description": "New Honda Vario 125 tampil agresif dengan V-Shape LED Headlight, bagasi luas 18 liter, ban lebih lebar, dan sistem Honda Smart Key untuk kenyamanan berkendara setiap hari.",
+      "sortOrder": 3,
+      "slug": "honda-vario-125",
+      "id": "model-vario-125",
+      "isFeatured": true,
+      "tagline": "Make It Happen, Performa 125cc eSP Liquid Cooled",
+      "category": "Matic",
+      "brand": "Honda"
+    },
+    {
+      "description": "Skutik premium sporti bermesin 160cc 4-valves eSP+ berpendingin cairan yang bertenaga, dilengkapi Full Digital Panel Meter, USB Charger, serta pilihan pengereman ABS & CBS.",
+      "category": "Matic",
+      "isFeatured": true,
+      "sortOrder": 4,
+      "brand": "Honda",
+      "id": "model-vario-160",
+      "slug": "honda-vario-160",
+      "tagline": "Bigger, Greater, Prouder dengan Mesin 160cc 4-Katup eSP+",
+      "name": "Honda Vario 160"
+    },
+    {
+      "description": "Big scooter elegan dengan posisi berkendara rileks, bagasi ekstra luas 30 liter, fitur Honda Selectable Torque Control (HSTC), dan kemewahan kelas wahid.",
+      "category": "Matic",
+      "isFeatured": true,
+      "name": "Honda PCX",
+      "slug": "honda-pcx",
+      "tagline": "The Next Level of Pride & Comfort",
+      "sortOrder": 5,
+      "brand": "Honda",
+      "id": "model-pcx"
+    },
+    {
+      "sortOrder": 6,
+      "slug": "honda-adv",
+      "name": "Honda ADV",
+      "tagline": "The SUV Pride, Penjelajah Segala Medan",
+      "category": "Matic",
+      "brand": "Honda",
+      "isFeatured": true,
+      "description": "Skutik penjelajah tangguh dengan Adjustable Windscreen, Twin Subtank Rear Suspension, Ground Clearance tinggi, serta mesin 160cc eSP+ yang responsif di tanjakan maupun perjalanan jauh.",
+      "id": "model-adv"
+    },
+    {
+      "id": "model-stylo",
+      "name": "Honda Stylo",
+      "isFeatured": true,
+      "sortOrder": 7,
+      "slug": "honda-stylo",
+      "description": "Skutik fashionable klasik modern pertama di kelas 160cc yang memadukan tampilan bergaya Eropa dengan performa mesin 160cc eSP+ bertenaga tinggi.",
+      "tagline": "Fashion Meets Power 160cc eSP+",
+      "category": "Matic",
+      "brand": "Honda"
+    }
+  ],
+  "motorVariants": [
+    {
+      "modelId": "model-beat",
+      "id": "var-beat-cbs",
+      "status": "READY",
+      "code": "BEAT-CBS",
+      "name": "Beat CBS",
+      "otrPrice": 19000000,
+      "isActive": true,
+      "promoBadge": "DP Mulai Rp 1,5 Juta · Potongan Tenor"
+    },
+    {
+      "name": "Beat CBS ISS",
+      "promoBadge": "Gratis Jaket Eksklusif & Servis 4x",
+      "modelId": "model-beat",
+      "otrPrice": 19750000,
+      "status": "READY",
+      "id": "var-beat-cbs-iss",
+      "code": "BEAT-CBS-ISS",
+      "isActive": true
+    },
+    {
+      "promoBadge": "Fitur Smart Key Anti Maling",
+      "id": "var-beat-smartkey",
+      "name": "Beat Smartkey",
+      "otrPrice": 20300000,
+      "code": "BEAT-SMARTKEY",
+      "modelId": "model-beat",
+      "isActive": true,
+      "status": "READY"
+    },
+    {
+      "promoBadge": "Velg 12 Inci · Naked Handlebar",
+      "otrPrice": 19850000,
+      "name": "Beat Street",
+      "status": "READY",
+      "isActive": true,
+      "modelId": "model-beat",
+      "code": "BEAT-STREET",
+      "id": "var-beat-street"
+    },
+    {
+      "id": "var-scoopy-fashion",
+      "status": "READY",
+      "modelId": "model-scoopy",
+      "promoBadge": "Voucher Apparel Resmi Honda",
+      "code": "SCOOPY-FSH",
+      "name": "Scoopy Fashion",
+      "isActive": true,
+      "otrPrice": 22950000
+    },
+    {
+      "name": "Scoopy Prestige",
+      "id": "var-scoopy-prestige",
+      "status": "READY",
+      "otrPrice": 23750000,
+      "modelId": "model-scoopy",
+      "promoBadge": "Smart Key System · Velg Bronze",
+      "isActive": true,
+      "code": "SCOOPY-PRS"
+    },
+    {
+      "modelId": "model-vario-125",
+      "code": "V125-CBS",
+      "status": "READY",
+      "id": "var-vario125-cbs",
+      "isActive": true,
+      "promoBadge": "Subsidi DP Spesial Sukabumi",
+      "otrPrice": 23650000,
+      "name": "Vario 125 CBS"
+    },
+    {
+      "isActive": true,
+      "name": "Vario 125 CBS-ISS",
+      "status": "READY",
+      "otrPrice": 25300000,
+      "id": "var-vario125-cbs-iss",
+      "promoBadge": "Smart Key · Idling Stop System",
+      "modelId": "model-vario-125",
+      "code": "V125-ISS"
+    },
+    {
+      "otrPrice": 27600000,
+      "code": "V160-CBS",
+      "promoBadge": "Potongan Angsuran s/d Rp 75 Ribu/bln",
+      "status": "READY",
+      "isActive": true,
+      "name": "Vario 160 CBS",
+      "id": "var-vario160-cbs",
+      "modelId": "model-vario-160"
+    },
+    {
+      "modelId": "model-vario-160",
+      "code": "V160-ABS",
+      "promoBadge": "Double Disc Brake + Anti-Lock Braking System",
+      "id": "var-vario160-abs",
+      "otrPrice": 30450000,
+      "status": "READY",
+      "name": "Vario 160 ABS",
+      "isActive": true
+    },
+    {
+      "promoBadge": "Ready Stock · Proses Cepat 1 Hari",
+      "name": "PCX 160 CBS",
+      "modelId": "model-pcx",
+      "isActive": true,
+      "id": "var-pcx-cbs",
+      "code": "PCX160-CBS",
+      "otrPrice": 33400000,
+      "status": "READY"
+    },
+    {
+      "modelId": "model-pcx",
+      "isActive": true,
+      "code": "PCX160-ABS",
+      "status": "INDENT",
+      "otrPrice": 36900000,
+      "promoBadge": "Fitur HSTC + ABS Kelas Premium",
+      "id": "var-pcx-abs",
+      "name": "PCX 160 ABS"
+    },
+    {
+      "name": "ADV 160 CBS",
+      "status": "READY",
+      "modelId": "model-adv",
+      "isActive": true,
+      "id": "var-adv-cbs",
+      "code": "ADV160-CBS",
+      "otrPrice": 36550000,
+      "promoBadge": "Bonus Helm Full-Face & Jaket Touring"
+    },
+    {
+      "name": "ADV 160 ABS",
+      "id": "var-adv-abs",
+      "status": "INDENT",
+      "otrPrice": 39850000,
+      "modelId": "model-adv",
+      "code": "ADV160-ABS",
+      "isActive": true,
+      "promoBadge": "HSTC + Twin Subtank Showa"
+    },
+    {
+      "status": "READY",
+      "promoBadge": "Desain Retro Modern 160cc Terpopuler",
+      "otrPrice": 28250000,
+      "modelId": "model-stylo",
+      "isActive": true,
+      "code": "STYLO-CBS",
+      "name": "Stylo 160 CBS",
+      "id": "var-stylo-cbs"
+    },
+    {
+      "promoBadge": "Rem Cakram Depan & Belakang + ABS",
+      "otrPrice": 31250000,
+      "modelId": "model-stylo",
+      "code": "STYLO-ABS",
+      "id": "var-stylo-abs",
+      "isActive": true,
+      "status": "READY",
+      "name": "Stylo 160 ABS"
+    }
+  ],
+  "motorColors": [
+    {
+      "secondaryHexCode": "#0F172A",
+      "name": "Biru",
+      "variantId": "var-beat-cbs",
+      "isDefault": true,
+      "imageUrl": "/api/motor-studio?model=Honda+Beat&variant=Beat+CBS&color=Biru&hex=%231D4ED8&sec=%230F172A&cat=Matic",
+      "id": "col-beat-cbs-biru",
+      "hexCode": "#1D4ED8"
+    },
+    {
+      "variantId": "var-beat-cbs",
+      "isDefault": false,
+      "hexCode": "#DC2626",
+      "secondaryHexCode": "#18181B",
+      "id": "col-beat-cbs-merah",
+      "name": "Merah",
+      "imageUrl": "/src/assets/images/motor_matic_sporty_red_1790867362954.jpg"
+    },
+    {
+      "hexCode": "#18181B",
+      "imageUrl": "/api/motor-studio?model=Honda+Beat&variant=Beat+CBS&color=Hitam&hex=%2318181B&sec=%23DC2626&cat=Matic",
+      "id": "col-beat-cbs-hitam",
+      "variantId": "var-beat-cbs",
+      "isDefault": false,
+      "name": "Hitam",
+      "secondaryHexCode": "#3F3F46"
+    },
+    {
+      "variantId": "var-beat-cbs",
+      "isDefault": false,
+      "id": "col-beat-cbs-putih",
+      "name": "Putih",
+      "hexCode": "#F8FAFC",
+      "imageUrl": "/api/motor-studio?model=Honda+Beat&variant=Beat+CBS&color=Putih&hex=%23F8FAFC&sec=%231E293B&cat=Matic",
+      "secondaryHexCode": "#1E293B"
+    },
+    {
+      "id": "col-beat-iss-hitam",
+      "name": "Hitam",
+      "secondaryHexCode": "#334155",
+      "imageUrl": "/api/motor-studio?model=Honda+Beat&variant=Beat+CBS+ISS&color=Hitam&hex=%2318181B&sec=%23334155&cat=Matic",
+      "variantId": "var-beat-cbs-iss",
+      "isDefault": true,
+      "hexCode": "#18181B"
+    },
+    {
+      "id": "col-beat-iss-biru",
+      "hexCode": "#1E40AF",
+      "name": "Biru",
+      "secondaryHexCode": "#0F172A",
+      "variantId": "var-beat-cbs-iss",
+      "isDefault": false,
+      "imageUrl": "/api/motor-studio?model=Honda+Beat&variant=Beat+CBS+ISS&color=Biru&hex=%231E40AF&sec=%230F172A&cat=Matic"
+    },
+    {
+      "secondaryHexCode": "#1E293B",
+      "id": "col-beat-iss-silver",
+      "variantId": "var-beat-cbs-iss",
+      "isDefault": false,
+      "name": "Silver",
+      "hexCode": "#94A3B8",
+      "imageUrl": "/api/motor-studio?model=Honda+Beat&variant=Beat+CBS+ISS&color=Silver&hex=%2394A3B8&sec=%231E293B&cat=Matic"
+    },
+    {
+      "variantId": "var-beat-smartkey",
+      "isDefault": true,
+      "imageUrl": "/api/motor-studio?model=Honda+Beat&variant=Beat+Smartkey&color=Hitam+Matte&hex=%2318181B&sec=%23CA8A04&cat=Matic",
+      "id": "col-beat-sk-hitam",
+      "secondaryHexCode": "#CA8A04",
+      "name": "Hitam Matte",
+      "hexCode": "#18181B"
+    },
+    {
+      "variantId": "var-beat-smartkey",
+      "isDefault": false,
+      "imageUrl": "/api/motor-studio?model=Honda+Beat&variant=Beat+Smartkey&color=Biru+Matte&hex=%231E3A8A&sec=%2394A3B8&cat=Matic",
+      "secondaryHexCode": "#94A3B8",
+      "id": "col-beat-sk-biru",
+      "name": "Biru Matte",
+      "hexCode": "#1E3A8A"
+    },
+    {
+      "hexCode": "#14532D",
+      "name": "Hijau Matte",
+      "imageUrl": "/api/motor-studio?model=Honda+Beat&variant=Beat+Smartkey&color=Hijau+Matte&hex=%2314532D&sec=%2318181B&cat=Matic",
+      "variantId": "var-beat-smartkey",
+      "isDefault": false,
+      "secondaryHexCode": "#18181B",
+      "id": "col-beat-sk-hijau"
+    },
+    {
+      "hexCode": "#18181B",
+      "name": "Hitam Street",
+      "id": "col-beat-st-hitam",
+      "secondaryHexCode": "#EA580C",
+      "variantId": "var-beat-street",
+      "isDefault": true,
+      "imageUrl": "/api/motor-studio?model=Honda+Beat&variant=Beat+Street&color=Hitam+Street&hex=%2318181B&sec=%23EA580C&cat=Matic"
+    },
+    {
+      "id": "col-beat-st-coklat",
+      "secondaryHexCode": "#18181B",
+      "name": "Coklat Matte",
+      "imageUrl": "/api/motor-studio?model=Honda+Beat&variant=Beat+Street&color=Coklat+Matte&hex=%2378350F&sec=%2318181B&cat=Matic",
+      "hexCode": "#78350F",
+      "isDefault": false,
+      "variantId": "var-beat-street"
+    },
+    {
+      "secondaryHexCode": "#92400E",
+      "id": "col-scoopy-fsh-cream",
+      "imageUrl": "/src/assets/images/motor_scooter_retro_cream_1790867381638.jpg",
+      "name": "Cream",
+      "variantId": "var-scoopy-fashion",
+      "isDefault": true,
+      "hexCode": "#FEF3C7"
+    },
+    {
+      "secondaryHexCode": "#FEF3C7",
+      "name": "Biru",
+      "imageUrl": "/api/motor-studio?model=Honda+Scoopy&variant=Scoopy+Fashion&color=Biru&hex=%232563EB&sec=%23FEF3C7&cat=Matic",
+      "hexCode": "#2563EB",
+      "isDefault": false,
+      "variantId": "var-scoopy-fashion",
+      "id": "col-scoopy-fsh-biru"
+    },
+    {
+      "isDefault": false,
+      "variantId": "var-scoopy-fashion",
+      "name": "Merah",
+      "secondaryHexCode": "#F8FAFC",
+      "imageUrl": "/api/motor-studio?model=Honda+Scoopy&variant=Scoopy+Fashion&color=Merah&hex=%23DC2626&sec=%23F8FAFC&cat=Matic",
+      "hexCode": "#DC2626",
+      "id": "col-scoopy-fsh-merah"
+    },
+    {
+      "hexCode": "#F8FAFC",
+      "isDefault": true,
+      "variantId": "var-scoopy-prestige",
+      "secondaryHexCode": "#B45309",
+      "id": "col-scoopy-prs-putih",
+      "imageUrl": "/api/motor-studio?model=Honda+Scoopy&variant=Scoopy+Prestige&color=Putih&hex=%23F8FAFC&sec=%23B45309&cat=Matic",
+      "name": "Putih"
+    },
+    {
+      "name": "Hitam",
+      "id": "col-scoopy-prs-hitam",
+      "variantId": "var-scoopy-prestige",
+      "isDefault": false,
+      "secondaryHexCode": "#B45309",
+      "imageUrl": "/api/motor-studio?model=Honda+Scoopy&variant=Scoopy+Prestige&color=Hitam&hex=%2318181B&sec=%23B45309&cat=Matic",
+      "hexCode": "#18181B"
+    },
+    {
+      "id": "col-v125-cbs-merah",
+      "name": "Merah",
+      "imageUrl": "/src/assets/images/motor_matic_sporty_red_1790867362954.jpg",
+      "hexCode": "#DC2626",
+      "variantId": "var-vario125-cbs",
+      "isDefault": true,
+      "secondaryHexCode": "#18181B"
+    },
+    {
+      "secondaryHexCode": "#DC2626",
+      "hexCode": "#18181B",
+      "name": "Hitam",
+      "id": "col-v125-cbs-hitam",
+      "variantId": "var-vario125-cbs",
+      "isDefault": false,
+      "imageUrl": "/api/motor-studio?model=Honda+Vario+125&variant=Vario+125+CBS&color=Hitam&hex=%2318181B&sec=%23DC2626&cat=Matic"
+    },
+    {
+      "name": "Biru",
+      "id": "col-v125-cbs-biru",
+      "imageUrl": "/api/motor-studio?model=Honda+Vario+125&variant=Vario+125+CBS&color=Biru&hex=%231D4ED8&sec=%2318181B&cat=Matic",
+      "variantId": "var-vario125-cbs",
+      "isDefault": false,
+      "hexCode": "#1D4ED8",
+      "secondaryHexCode": "#18181B"
+    },
+    {
+      "imageUrl": "/api/motor-studio?model=Honda+Vario+125&variant=Vario+125+CBS-ISS&color=Biru+Matte&hex=%231E3A8A&sec=%23CA8A04&cat=Matic",
+      "hexCode": "#1E3A8A",
+      "secondaryHexCode": "#CA8A04",
+      "variantId": "var-vario125-cbs-iss",
+      "isDefault": true,
+      "id": "col-v125-iss-biru",
+      "name": "Biru Matte"
+    },
+    {
+      "hexCode": "#F8FAFC",
+      "imageUrl": "/api/motor-studio?model=Honda+Vario+125&variant=Vario+125+CBS-ISS&color=Putih+Matte&hex=%23F8FAFC&sec=%23CA8A04&cat=Matic",
+      "variantId": "var-vario125-cbs-iss",
+      "isDefault": false,
+      "name": "Putih Matte",
+      "secondaryHexCode": "#CA8A04",
+      "id": "col-v125-iss-putih"
+    },
+    {
+      "secondaryHexCode": "#CA8A04",
+      "name": "Hitam Matte",
+      "hexCode": "#18181B",
+      "variantId": "var-vario125-cbs-iss",
+      "imageUrl": "/api/motor-studio?model=Honda+Vario+125&variant=Vario+125+CBS-ISS&color=Hitam+Matte&hex=%2318181B&sec=%23CA8A04&cat=Matic",
+      "isDefault": false,
+      "id": "col-v125-iss-hitam"
+    },
+    {
+      "name": "Merah",
+      "secondaryHexCode": "#18181B",
+      "id": "col-v160-cbs-merah",
+      "variantId": "var-vario160-cbs",
+      "isDefault": true,
+      "imageUrl": "/src/assets/images/motor_matic_sporty_red_1790867362954.jpg",
+      "hexCode": "#B91C1C"
+    },
+    {
+      "name": "Hitam",
+      "isDefault": false,
+      "variantId": "var-vario160-cbs",
+      "imageUrl": "/api/motor-studio?model=Honda+Vario+160&variant=Vario+160+CBS&color=Hitam&hex=%2318181B&sec=%23475569&cat=Matic",
+      "secondaryHexCode": "#475569",
+      "id": "col-v160-cbs-hitam",
+      "hexCode": "#18181B"
+    },
+    {
+      "variantId": "var-vario160-cbs",
+      "isDefault": false,
+      "secondaryHexCode": "#18181B",
+      "imageUrl": "/api/motor-studio?model=Honda+Vario+160&variant=Vario+160+CBS&color=Biru+Matte&hex=%231E3A8A&sec=%2318181B&cat=Matic",
+      "hexCode": "#1E3A8A",
+      "id": "col-v160-cbs-biru",
+      "name": "Biru Matte"
+    },
+    {
+      "name": "Hitam Matte",
+      "hexCode": "#18181B",
+      "id": "col-v160-abs-hitam",
+      "imageUrl": "/src/assets/images/motor_maxi_adventure_black_1790867393156.jpg",
+      "secondaryHexCode": "#CA8A04",
+      "variantId": "var-vario160-abs",
+      "isDefault": true
+    },
+    {
+      "hexCode": "#F8FAFC",
+      "secondaryHexCode": "#CA8A04",
+      "id": "col-v160-abs-putih",
+      "imageUrl": "/api/motor-studio?model=Honda+Vario+160&variant=Vario+160+ABS&color=Putih+Matte&hex=%23F8FAFC&sec=%23CA8A04&cat=Matic",
+      "variantId": "var-vario160-abs",
+      "isDefault": false,
+      "name": "Putih Matte"
+    },
+    {
+      "variantId": "var-pcx-cbs",
+      "isDefault": true,
+      "secondaryHexCode": "#94A3B8",
+      "imageUrl": "/src/assets/images/motor_maxi_adventure_black_1790867393156.jpg",
+      "name": "Hitam",
+      "id": "col-pcx-cbs-hitam",
+      "hexCode": "#18181B"
+    },
+    {
+      "name": "Merah",
+      "id": "col-pcx-cbs-merah",
+      "imageUrl": "/api/motor-studio?model=Honda+PCX&variant=PCX+160+CBS&color=Merah&hex=%23991B1B&sec=%2318181B&cat=Matic",
+      "hexCode": "#991B1B",
+      "variantId": "var-pcx-cbs",
+      "isDefault": false,
+      "secondaryHexCode": "#18181B"
+    },
+    {
+      "name": "Putih",
+      "isDefault": false,
+      "variantId": "var-pcx-cbs",
+      "imageUrl": "/api/motor-studio?model=Honda+PCX&variant=PCX+160+CBS&color=Putih&hex=%23F8FAFC&sec=%2318181B&cat=Matic",
+      "secondaryHexCode": "#18181B",
+      "id": "col-pcx-cbs-putih",
+      "hexCode": "#F8FAFC"
+    },
+    {
+      "variantId": "var-pcx-abs",
+      "isDefault": true,
+      "secondaryHexCode": "#CA8A04",
+      "imageUrl": "/src/assets/images/motor_maxi_adventure_black_1790867393156.jpg",
+      "hexCode": "#18181B",
+      "id": "col-pcx-abs-hitam",
+      "name": "Hitam Gold"
+    },
+    {
+      "secondaryHexCode": "#CA8A04",
+      "id": "col-pcx-abs-biru",
+      "name": "Biru Matte",
+      "imageUrl": "/api/motor-studio?model=Honda+PCX&variant=PCX+160+ABS&color=Biru+Matte&hex=%231E3A8A&sec=%23CA8A04&cat=Matic",
+      "hexCode": "#1E3A8A",
+      "variantId": "var-pcx-abs",
+      "isDefault": false
+    },
+    {
+      "isDefault": true,
+      "variantId": "var-adv-cbs",
+      "secondaryHexCode": "#DC2626",
+      "name": "Hitam",
+      "hexCode": "#18181B",
+      "id": "col-adv-cbs-hitam",
+      "imageUrl": "/src/assets/images/motor_maxi_adventure_black_1790867393156.jpg"
+    },
+    {
+      "variantId": "var-adv-cbs",
+      "isDefault": false,
+      "imageUrl": "/api/motor-studio?model=Honda+ADV&variant=ADV+160+CBS&color=Merah&hex=%23DC2626&sec=%2318181B&cat=Matic",
+      "hexCode": "#DC2626",
+      "name": "Merah",
+      "id": "col-adv-cbs-merah",
+      "secondaryHexCode": "#18181B"
+    },
+    {
+      "name": "Putih",
+      "id": "col-adv-cbs-putih",
+      "hexCode": "#F8FAFC",
+      "imageUrl": "/api/motor-studio?model=Honda+ADV&variant=ADV+160+CBS&color=Putih&hex=%23F8FAFC&sec=%2318181B&cat=Matic",
+      "variantId": "var-adv-cbs",
+      "isDefault": false,
+      "secondaryHexCode": "#18181B"
+    },
+    {
+      "variantId": "var-adv-abs",
+      "isDefault": true,
+      "id": "col-adv-abs-hitam",
+      "hexCode": "#18181B",
+      "name": "Hitam Matte",
+      "imageUrl": "/src/assets/images/motor_maxi_adventure_black_1790867393156.jpg",
+      "secondaryHexCode": "#CA8A04"
+    },
+    {
+      "secondaryHexCode": "#CA8A04",
+      "id": "col-adv-abs-hijau",
+      "name": "Hijau Matte",
+      "imageUrl": "/api/motor-studio?model=Honda+ADV&variant=ADV+160+ABS&color=Hijau+Matte&hex=%2314532D&sec=%23CA8A04&cat=Matic",
+      "hexCode": "#14532D",
+      "variantId": "var-adv-abs",
+      "isDefault": false
+    },
+    {
+      "imageUrl": "/src/assets/images/motor_scooter_retro_cream_1790867381638.jpg",
+      "isDefault": true,
+      "variantId": "var-stylo-cbs",
+      "name": "Cream",
+      "secondaryHexCode": "#18181B",
+      "hexCode": "#FEF3C7",
+      "id": "col-stylo-cbs-cream"
+    },
+    {
+      "id": "col-stylo-cbs-hitam",
+      "name": "Hitam",
+      "imageUrl": "/api/motor-studio?model=Honda+Stylo&variant=Stylo+160+CBS&color=Hitam&hex=%2318181B&sec=%23475569&cat=Matic",
+      "hexCode": "#18181B",
+      "isDefault": false,
+      "variantId": "var-stylo-cbs",
+      "secondaryHexCode": "#475569"
+    },
+    {
+      "id": "col-stylo-cbs-merah",
+      "name": "Merah",
+      "hexCode": "#DC2626",
+      "imageUrl": "/api/motor-studio?model=Honda+Stylo&variant=Stylo+160+CBS&color=Merah&hex=%23DC2626&sec=%2318181B&cat=Matic",
+      "variantId": "var-stylo-cbs",
+      "secondaryHexCode": "#18181B",
+      "isDefault": false
+    },
+    {
+      "id": "col-stylo-abs-hijau",
+      "name": "Hijau Royal",
+      "isDefault": true,
+      "variantId": "var-stylo-abs",
+      "hexCode": "#064E3B",
+      "secondaryHexCode": "#92400E",
+      "imageUrl": "/api/motor-studio?model=Honda+Stylo&variant=Stylo+160+ABS&color=Hijau+Royal&hex=%23064E3B&sec=%2392400E&cat=Matic"
+    },
+    {
+      "id": "col-stylo-abs-putih",
+      "imageUrl": "/src/assets/images/motor_scooter_retro_cream_1790867381638.jpg",
+      "secondaryHexCode": "#92400E",
+      "name": "Putih Royal",
+      "variantId": "var-stylo-abs",
+      "isDefault": false,
+      "hexCode": "#F8FAFC"
+    },
+    {
+      "hexCode": "#18181B",
+      "imageUrl": "/api/motor-studio?model=Honda+Stylo&variant=Stylo+160+ABS&color=Hitam+Royal&hex=%2318181B&sec=%2392400E&cat=Matic",
+      "name": "Hitam Royal",
+      "secondaryHexCode": "#92400E",
+      "id": "col-stylo-abs-hitam",
+      "isDefault": false,
+      "variantId": "var-stylo-abs"
+    }
+  ],
+  "motorImages": [
+    {
+      "variantId": "var-beat-cbs",
+      "imageUrl": "/src/assets/images/motor_matic_sporty_red_1790867362954.jpg",
+      "id": "img-1",
+      "caption": "Desain Sporty & Rangka eSAF Lincah",
+      "sortOrder": 1
+    },
+    {
+      "imageUrl": "/src/assets/images/motor_scooter_retro_cream_1790867381638.jpg",
+      "sortOrder": 1,
+      "variantId": "var-scoopy-fashion",
+      "caption": "Gaya Retro Modern Eksklusif",
+      "id": "img-2"
+    },
+    {
+      "imageUrl": "/src/assets/images/motor_maxi_adventure_black_1790867393156.jpg",
+      "caption": "Kemewahan Big Scooter 160cc eSP+",
+      "sortOrder": 1,
+      "id": "img-3",
+      "variantId": "var-pcx-cbs"
+    }
+  ],
+  "motorSpecs": [
+    {
+      "engineType": "4-Langkah, SOHC, eSP, Pendingin Udara",
+      "features": "LED Headlight, Combined Digital Panel Meter, Power Charger, Tuas Pengunci Rem, Bagasi Fungsional",
+      "brakeSystem": "Cakram Hidrolik Depan, Tromol Belakang dengan Combi Brake System (CBS)",
+      "id": "spec-var-beat-cbs",
+      "variantId": "var-beat-cbs",
+      "batteryType": "MF 12V - 5Ah",
+      "weight": "87 - 89 kg",
+      "dimension": "1.876 x 669 x 1.080 mm",
+      "tankCapacity": "4,2 Liter",
+      "transmission": "Otomatis, V-Matic",
+      "frameType": "Tulang Punggung – eSAF (enhanced Smart Architecture Frame)",
+      "maxTorque": "9,2 Nm / 6.000 rpm",
+      "extraNotes": "Garansi Mesin 3 Tahun / 36.000 km · Garansi Rangka 5 Tahun Tanpa Batas Jarak Tempuh · Garansi PGM-FI 5 Tahun.",
+      "displacement": "109,5 cc",
+      "maxPower": "6,6 kW (9,0 PS) / 7.500 rpm",
+      "tireSize": "Depan: 80/90 - 14M/C Tubeless · Belakang: 90/90 - 14M/C Tubeless"
+    },
+    {
+      "maxTorque": "9,2 Nm / 6.000 rpm",
+      "frameType": "Tulang Punggung – eSAF (enhanced Smart Architecture Frame)",
+      "maxPower": "6,6 kW (9,0 PS) / 7.500 rpm",
+      "tireSize": "Depan: 80/90 - 14M/C Tubeless · Belakang: 90/90 - 14M/C Tubeless",
+      "tankCapacity": "4,2 Liter",
+      "transmission": "Otomatis, V-Matic",
+      "engineType": "4-Langkah, SOHC, eSP, Pendingin Udara",
+      "displacement": "109,5 cc",
+      "dimension": "1.876 x 669 x 1.080 mm",
+      "variantId": "var-beat-cbs-iss",
+      "id": "spec-var-beat-cbs-iss",
+      "weight": "87 - 89 kg",
+      "brakeSystem": "Cakram Hidrolik Depan, Tromol Belakang dengan Combi Brake System (CBS)",
+      "extraNotes": "Garansi Mesin 3 Tahun / 36.000 km · Garansi Rangka 5 Tahun Tanpa Batas Jarak Tempuh · Garansi PGM-FI 5 Tahun.",
+      "features": "Honda Smart Key System, Anti-Theft Alarm, Answer Back System, USB Power Charger, Full LED Headlight, Idling Stop System (ISS)",
+      "batteryType": "MF 12V - 5Ah"
+    },
+    {
+      "frameType": "Tulang Punggung – eSAF (enhanced Smart Architecture Frame)",
+      "tireSize": "Depan: 80/90 - 14M/C Tubeless · Belakang: 90/90 - 14M/C Tubeless",
+      "maxTorque": "9,2 Nm / 6.000 rpm",
+      "maxPower": "6,6 kW (9,0 PS) / 7.500 rpm",
+      "id": "spec-var-beat-smartkey",
+      "engineType": "4-Langkah, SOHC, eSP, Pendingin Udara",
+      "displacement": "109,5 cc",
+      "weight": "87 - 89 kg",
+      "transmission": "Otomatis, V-Matic",
+      "tankCapacity": "4,2 Liter",
+      "dimension": "1.876 x 669 x 1.080 mm",
+      "batteryType": "MF 12V - 5Ah",
+      "variantId": "var-beat-smartkey",
+      "features": "Honda Smart Key System, Anti-Theft Alarm, Answer Back System, USB Power Charger, Full LED Headlight, Idling Stop System (ISS)",
+      "brakeSystem": "Cakram Hidrolik Depan, Tromol Belakang dengan Combi Brake System (CBS)",
+      "extraNotes": "Garansi Mesin 3 Tahun / 36.000 km · Garansi Rangka 5 Tahun Tanpa Batas Jarak Tempuh · Garansi PGM-FI 5 Tahun."
+    },
+    {
+      "maxPower": "6,6 kW (9,0 PS) / 7.500 rpm",
+      "tireSize": "Depan: 80/90 - 14M/C Tubeless · Belakang: 90/90 - 14M/C Tubeless",
+      "weight": "87 - 89 kg",
+      "extraNotes": "Garansi Mesin 3 Tahun / 36.000 km · Garansi Rangka 5 Tahun Tanpa Batas Jarak Tempuh · Garansi PGM-FI 5 Tahun.",
+      "dimension": "1.876 x 669 x 1.080 mm",
+      "maxTorque": "9,2 Nm / 6.000 rpm",
+      "frameType": "Tulang Punggung – eSAF (enhanced Smart Architecture Frame)",
+      "id": "spec-var-beat-street",
+      "displacement": "109,5 cc",
+      "transmission": "Otomatis, V-Matic",
+      "tankCapacity": "4,2 Liter",
+      "batteryType": "MF 12V - 5Ah",
+      "variantId": "var-beat-street",
+      "brakeSystem": "Cakram Hidrolik Depan, Tromol Belakang dengan Combi Brake System (CBS)",
+      "features": "LED Headlight, Combined Digital Panel Meter, Power Charger, Tuas Pengunci Rem, Bagasi Fungsional",
+      "engineType": "4-Langkah, SOHC, eSP, Pendingin Udara"
+    },
+    {
+      "transmission": "Otomatis, V-Matic",
+      "tankCapacity": "4,2 Liter",
+      "frameType": "Tulang Punggung – eSAF (enhanced Smart Architecture Frame)",
+      "maxTorque": "9,2 Nm / 6.000 rpm",
+      "displacement": "109,5 cc",
+      "tireSize": "Depan: 80/90 - 14M/C Tubeless · Belakang: 90/90 - 14M/C Tubeless",
+      "brakeSystem": "Cakram Hidrolik Depan, Tromol Belakang dengan Combi Brake System (CBS)",
+      "maxPower": "6,6 kW (9,0 PS) / 7.500 rpm",
+      "extraNotes": "Garansi Mesin 3 Tahun / 36.000 km · Garansi Rangka 5 Tahun Tanpa Batas Jarak Tempuh · Garansi PGM-FI 5 Tahun.",
+      "batteryType": "MF 12V - 5Ah",
+      "id": "spec-var-scoopy-fashion",
+      "dimension": "1.876 x 669 x 1.080 mm",
+      "engineType": "4-Langkah, SOHC, eSP, Pendingin Udara",
+      "variantId": "var-scoopy-fashion",
+      "weight": "87 - 89 kg",
+      "features": "LED Headlight, Combined Digital Panel Meter, Power Charger, Tuas Pengunci Rem, Bagasi Fungsional"
+    },
+    {
+      "frameType": "Tulang Punggung – eSAF (enhanced Smart Architecture Frame)",
+      "maxTorque": "9,2 Nm / 6.000 rpm",
+      "transmission": "Otomatis, V-Matic",
+      "tankCapacity": "4,2 Liter",
+      "batteryType": "MF 12V - 5Ah",
+      "displacement": "109,5 cc",
+      "id": "spec-var-scoopy-prestige",
+      "brakeSystem": "Cakram Hidrolik Depan, Tromol Belakang dengan Combi Brake System (CBS)",
+      "extraNotes": "Garansi Mesin 3 Tahun / 36.000 km · Garansi Rangka 5 Tahun Tanpa Batas Jarak Tempuh · Garansi PGM-FI 5 Tahun.",
+      "dimension": "1.876 x 669 x 1.080 mm",
+      "features": "Honda Smart Key System, Anti-Theft Alarm, Answer Back System, USB Power Charger, Full LED Headlight, Idling Stop System (ISS)",
+      "variantId": "var-scoopy-prestige",
+      "engineType": "4-Langkah, SOHC, eSP, Pendingin Udara",
+      "tireSize": "Depan: 80/90 - 14M/C Tubeless · Belakang: 90/90 - 14M/C Tubeless",
+      "maxPower": "6,6 kW (9,0 PS) / 7.500 rpm",
+      "weight": "87 - 89 kg"
+    },
+    {
+      "dimension": "1.918 x 679 x 1.066 mm",
+      "maxPower": "8,2 kW (11,1 PS) / 8.500 rpm",
+      "tireSize": "Depan: 80/90 - 14M/C Tubeless · Belakang: 90/90 - 14M/C Tubeless",
+      "weight": "111 kg",
+      "id": "spec-var-vario125-cbs",
+      "engineType": "4-Langkah, SOHC, eSP, Pendingin Cairan",
+      "displacement": "124,8 cc",
+      "transmission": "Otomatis, V-Matic",
+      "tankCapacity": "5,5 Liter",
+      "frameType": "Tulang Punggung – eSAF (enhanced Smart Architecture Frame)",
+      "maxTorque": "10,8 Nm / 5.000 rpm",
+      "extraNotes": "Garansi Mesin 3 Tahun / 36.000 km · Garansi Rangka 5 Tahun Tanpa Batas Jarak Tempuh · Garansi PGM-FI 5 Tahun.",
+      "batteryType": "MF 12V - 5Ah",
+      "features": "LED Headlight, Combined Digital Panel Meter, Power Charger, Tuas Pengunci Rem, Bagasi Fungsional",
+      "brakeSystem": "Cakram Hidrolik Depan, Tromol Belakang dengan Combi Brake System (CBS)",
+      "variantId": "var-vario125-cbs"
+    },
+    {
+      "extraNotes": "Garansi Mesin 3 Tahun / 36.000 km · Garansi Rangka 5 Tahun Tanpa Batas Jarak Tempuh · Garansi PGM-FI 5 Tahun.",
+      "tireSize": "Depan: 80/90 - 14M/C Tubeless · Belakang: 90/90 - 14M/C Tubeless",
+      "maxPower": "8,2 kW (11,1 PS) / 8.500 rpm",
+      "variantId": "var-vario125-cbs-iss",
+      "batteryType": "MF 12V - 5Ah",
+      "id": "spec-var-vario125-cbs-iss",
+      "dimension": "1.918 x 679 x 1.066 mm",
+      "features": "Honda Smart Key System, Anti-Theft Alarm, Answer Back System, USB Power Charger, Full LED Headlight, Idling Stop System (ISS)",
+      "displacement": "124,8 cc",
+      "weight": "111 kg",
+      "frameType": "Tulang Punggung – eSAF (enhanced Smart Architecture Frame)",
+      "brakeSystem": "Cakram Hidrolik Depan, Tromol Belakang dengan Combi Brake System (CBS)",
+      "engineType": "4-Langkah, SOHC, eSP, Pendingin Cairan",
+      "transmission": "Otomatis, V-Matic",
+      "tankCapacity": "5,5 Liter",
+      "maxTorque": "10,8 Nm / 5.000 rpm"
+    },
+    {
+      "batteryType": "MF 12V - 5Ah",
+      "maxTorque": "13,8 Nm / 7.000 rpm",
+      "frameType": "Tulang Punggung – eSAF (enhanced Smart Architecture Frame)",
+      "extraNotes": "Garansi Mesin 3 Tahun / 36.000 km · Garansi Rangka 5 Tahun Tanpa Batas Jarak Tempuh · Garansi PGM-FI 5 Tahun.",
+      "id": "spec-var-vario160-cbs",
+      "features": "LED Headlight, Combined Digital Panel Meter, Power Charger, Tuas Pengunci Rem, Bagasi Fungsional",
+      "brakeSystem": "Cakram Hidrolik Depan, Tromol Belakang dengan Combi Brake System (CBS)",
+      "dimension": "1.936 x 742 x 1.108 mm",
+      "maxPower": "11,3 kW (15,4 PS) / 8.500 rpm",
+      "variantId": "var-vario160-cbs",
+      "tireSize": "Depan: 100/80 - 14M/C Tubeless · Belakang: 120/70 - 14M/C Tubeless",
+      "weight": "118 - 133 kg",
+      "displacement": "156,9 cc",
+      "engineType": "4-Langkah, 4-Katup, eSP+, Pendingin Cairan",
+      "transmission": "Otomatis, V-Matic",
+      "tankCapacity": "5,5 - 8,1 Liter"
+    },
+    {
+      "engineType": "4-Langkah, 4-Katup, eSP+, Pendingin Cairan",
+      "brakeSystem": "Cakram Hidrolik Depan & Belakang dengan Anti-Lock Braking System (ABS)",
+      "frameType": "Tulang Punggung – eSAF (enhanced Smart Architecture Frame)",
+      "maxTorque": "13,8 Nm / 7.000 rpm",
+      "dimension": "1.936 x 742 x 1.108 mm",
+      "batteryType": "MF 12V - 5Ah",
+      "tireSize": "Depan: 100/80 - 14M/C Tubeless · Belakang: 120/70 - 14M/C Tubeless",
+      "maxPower": "11,3 kW (15,4 PS) / 8.500 rpm",
+      "features": "Honda Smart Key System, Anti-Theft Alarm, Answer Back System, USB Power Charger, Full LED Headlight, Idling Stop System (ISS)",
+      "variantId": "var-vario160-abs",
+      "displacement": "156,9 cc",
+      "weight": "118 - 133 kg",
+      "id": "spec-var-vario160-abs",
+      "extraNotes": "Garansi Mesin 3 Tahun / 36.000 km · Garansi Rangka 5 Tahun Tanpa Batas Jarak Tempuh · Garansi PGM-FI 5 Tahun.",
+      "transmission": "Otomatis, V-Matic",
+      "tankCapacity": "5,5 - 8,1 Liter"
+    },
+    {
+      "maxTorque": "13,8 Nm / 7.000 rpm",
+      "frameType": "Double Cradle",
+      "weight": "118 - 133 kg",
+      "features": "LED Headlight, Combined Digital Panel Meter, Power Charger, Tuas Pengunci Rem, Bagasi Fungsional",
+      "extraNotes": "Garansi Mesin 3 Tahun / 36.000 km · Garansi Rangka 5 Tahun Tanpa Batas Jarak Tempuh · Garansi PGM-FI 5 Tahun.",
+      "dimension": "1.936 x 742 x 1.108 mm",
+      "engineType": "4-Langkah, 4-Katup, eSP+, Pendingin Cairan",
+      "brakeSystem": "Cakram Hidrolik Depan, Tromol Belakang dengan Combi Brake System (CBS)",
+      "transmission": "Otomatis, V-Matic",
+      "tankCapacity": "5,5 - 8,1 Liter",
+      "variantId": "var-pcx-cbs",
+      "displacement": "156,9 cc",
+      "id": "spec-var-pcx-cbs",
+      "maxPower": "11,3 kW (15,4 PS) / 8.500 rpm",
+      "batteryType": "MF 12V - 5Ah",
+      "tireSize": "Depan: 100/80 - 14M/C Tubeless · Belakang: 120/70 - 14M/C Tubeless"
+    },
+    {
+      "engineType": "4-Langkah, 4-Katup, eSP+, Pendingin Cairan",
+      "features": "Honda Smart Key System, Anti-Theft Alarm, Answer Back System, USB Power Charger, Full LED Headlight, Idling Stop System (ISS)",
+      "tankCapacity": "5,5 - 8,1 Liter",
+      "transmission": "Otomatis, V-Matic",
+      "variantId": "var-pcx-abs",
+      "displacement": "156,9 cc",
+      "dimension": "1.936 x 742 x 1.108 mm",
+      "batteryType": "MF 12V - 5Ah",
+      "weight": "118 - 133 kg",
+      "frameType": "Double Cradle",
+      "maxTorque": "13,8 Nm / 7.000 rpm",
+      "brakeSystem": "Cakram Hidrolik Depan & Belakang dengan Anti-Lock Braking System (ABS)",
+      "id": "spec-var-pcx-abs",
+      "tireSize": "Depan: 100/80 - 14M/C Tubeless · Belakang: 120/70 - 14M/C Tubeless",
+      "extraNotes": "Garansi Mesin 3 Tahun / 36.000 km · Garansi Rangka 5 Tahun Tanpa Batas Jarak Tempuh · Garansi PGM-FI 5 Tahun.",
+      "maxPower": "11,3 kW (15,4 PS) / 8.500 rpm"
+    },
+    {
+      "dimension": "1.936 x 742 x 1.108 mm",
+      "id": "spec-var-adv-cbs",
+      "batteryType": "MF 12V - 5Ah",
+      "tireSize": "Depan: 100/80 - 14M/C Tubeless · Belakang: 120/70 - 14M/C Tubeless",
+      "maxPower": "11,3 kW (15,4 PS) / 8.500 rpm",
+      "brakeSystem": "Cakram Hidrolik Depan, Tromol Belakang dengan Combi Brake System (CBS)",
+      "engineType": "4-Langkah, 4-Katup, eSP+, Pendingin Cairan",
+      "frameType": "Double Cradle",
+      "maxTorque": "13,8 Nm / 7.000 rpm",
+      "extraNotes": "Garansi Mesin 3 Tahun / 36.000 km · Garansi Rangka 5 Tahun Tanpa Batas Jarak Tempuh · Garansi PGM-FI 5 Tahun.",
+      "displacement": "156,9 cc",
+      "variantId": "var-adv-cbs",
+      "weight": "118 - 133 kg",
+      "tankCapacity": "5,5 - 8,1 Liter",
+      "transmission": "Otomatis, V-Matic",
+      "features": "LED Headlight, Combined Digital Panel Meter, Power Charger, Tuas Pengunci Rem, Bagasi Fungsional"
+    },
+    {
+      "extraNotes": "Garansi Mesin 3 Tahun / 36.000 km · Garansi Rangka 5 Tahun Tanpa Batas Jarak Tempuh · Garansi PGM-FI 5 Tahun.",
+      "displacement": "156,9 cc",
+      "variantId": "var-adv-abs",
+      "features": "Honda Smart Key System, Anti-Theft Alarm, Answer Back System, USB Power Charger, Full LED Headlight, Idling Stop System (ISS)",
+      "transmission": "Otomatis, V-Matic",
+      "tankCapacity": "5,5 - 8,1 Liter",
+      "id": "spec-var-adv-abs",
+      "tireSize": "Depan: 100/80 - 14M/C Tubeless · Belakang: 120/70 - 14M/C Tubeless",
+      "maxPower": "11,3 kW (15,4 PS) / 8.500 rpm",
+      "dimension": "1.936 x 742 x 1.108 mm",
+      "batteryType": "MF 12V - 5Ah",
+      "frameType": "Double Cradle",
+      "maxTorque": "13,8 Nm / 7.000 rpm",
+      "brakeSystem": "Cakram Hidrolik Depan & Belakang dengan Anti-Lock Braking System (ABS)",
+      "engineType": "4-Langkah, 4-Katup, eSP+, Pendingin Cairan",
+      "weight": "118 - 133 kg"
+    },
+    {
+      "features": "LED Headlight, Combined Digital Panel Meter, Power Charger, Tuas Pengunci Rem, Bagasi Fungsional",
+      "weight": "118 - 133 kg",
+      "id": "spec-var-stylo-cbs",
+      "extraNotes": "Garansi Mesin 3 Tahun / 36.000 km · Garansi Rangka 5 Tahun Tanpa Batas Jarak Tempuh · Garansi PGM-FI 5 Tahun.",
+      "variantId": "var-stylo-cbs",
+      "dimension": "1.936 x 742 x 1.108 mm",
+      "batteryType": "MF 12V - 5Ah",
+      "engineType": "4-Langkah, 4-Katup, eSP+, Pendingin Cairan",
+      "maxPower": "11,3 kW (15,4 PS) / 8.500 rpm",
+      "tankCapacity": "5,5 - 8,1 Liter",
+      "transmission": "Otomatis, V-Matic",
+      "tireSize": "Depan: 100/80 - 14M/C Tubeless · Belakang: 120/70 - 14M/C Tubeless",
+      "maxTorque": "13,8 Nm / 7.000 rpm",
+      "brakeSystem": "Cakram Hidrolik Depan, Tromol Belakang dengan Combi Brake System (CBS)",
+      "frameType": "Tulang Punggung – eSAF (enhanced Smart Architecture Frame)",
+      "displacement": "156,9 cc"
+    },
+    {
+      "engineType": "4-Langkah, 4-Katup, eSP+, Pendingin Cairan",
+      "maxTorque": "13,8 Nm / 7.000 rpm",
+      "frameType": "Tulang Punggung – eSAF (enhanced Smart Architecture Frame)",
+      "weight": "118 - 133 kg",
+      "displacement": "156,9 cc",
+      "features": "Honda Smart Key System, Anti-Theft Alarm, Answer Back System, USB Power Charger, Full LED Headlight, Idling Stop System (ISS)",
+      "dimension": "1.936 x 742 x 1.108 mm",
+      "transmission": "Otomatis, V-Matic",
+      "tankCapacity": "5,5 - 8,1 Liter",
+      "maxPower": "11,3 kW (15,4 PS) / 8.500 rpm",
+      "tireSize": "Depan: 100/80 - 14M/C Tubeless · Belakang: 120/70 - 14M/C Tubeless",
+      "id": "spec-var-stylo-abs",
+      "variantId": "var-stylo-abs",
+      "brakeSystem": "Cakram Hidrolik Depan & Belakang dengan Anti-Lock Braking System (ABS)",
+      "extraNotes": "Garansi Mesin 3 Tahun / 36.000 km · Garansi Rangka 5 Tahun Tanpa Batas Jarak Tempuh · Garansi PGM-FI 5 Tahun.",
+      "batteryType": "MF 12V - 5Ah"
+    }
+  ],
+  "creditSimulations": [
+    {
+      "id": "cred-beat-cbs-biru-2000000",
+      "variantId": "var-beat-cbs",
+      "installments": {
+        "11": 1890000,
+        "17": 1325000,
+        "23": 1045000,
+        "29": 895000,
+        "35": 785000
+      },
+      "otr": 19000000,
+      "dp": 3000000,
+      "modelId": "model-beat",
+      "colorId": "ALL",
+      "colorName": "Semua Warna"
+    },
+    {
+      "dp": 3500000,
+      "modelId": "model-beat",
+      "colorName": "Semua Warna",
+      "otr": 19000000,
+      "colorId": "ALL",
+      "installments": {
+        "11": 1677000,
+        "17": 1167000,
+        "23": 930000,
+        "29": 791000,
+        "35": 691000
+      },
+      "variantId": "var-beat-cbs",
+      "id": "cred-var-beat-cbs-dp-3500000"
+    },
+    {
+      "colorName": "Semua Warna",
+      "id": "cred-var-beat-cbs-dp-4000000",
+      "installments": {
+        "11": 1623000,
+        "17": 1129000,
+        "23": 900000,
+        "29": 766000,
+        "35": 669000
+      },
+      "otr": 19000000,
+      "colorId": "ALL",
+      "modelId": "model-beat",
+      "dp": 4000000,
+      "variantId": "var-beat-cbs"
+    },
+    {
+      "colorId": "ALL",
+      "modelId": "model-beat",
+      "dp": 2000000,
+      "colorName": "Semua Warna",
+      "id": "cred-var-beat-cbs-iss-col-beat-iss-hitam-2000000",
+      "variantId": "var-beat-cbs-iss",
+      "installments": {
+        "11": 1920000,
+        "17": 1336000,
+        "23": 1065000,
+        "29": 906000,
+        "35": 791000
+      },
+      "otr": 19750000
+    },
+    {
+      "dp": 2500000,
+      "variantId": "var-beat-cbs-iss",
+      "colorId": "ALL",
+      "modelId": "model-beat",
+      "otr": 19750000,
+      "installments": {
+        "11": 1866000,
+        "17": 1299000,
+        "23": 1035000,
+        "29": 880000,
+        "35": 769000
+      },
+      "colorName": "Semua Warna",
+      "id": "cred-var-beat-cbs-iss-dp-2500000"
+    },
+    {
+      "dp": 3000000,
+      "installments": {
+        "11": 1812000,
+        "17": 1261000,
+        "23": 1005000,
+        "29": 855000,
+        "35": 747000
+      },
+      "variantId": "var-beat-cbs-iss",
+      "otr": 19750000,
+      "colorName": "Semua Warna",
+      "colorId": "ALL",
+      "modelId": "model-beat",
+      "id": "cred-var-beat-cbs-iss-dp-3000000"
+    },
+    {
+      "colorId": "ALL",
+      "modelId": "model-beat",
+      "variantId": "var-beat-smartkey",
+      "id": "cred-var-beat-smartkey-col-beat-sk-hitam-2000000",
+      "installments": {
+        "11": 1980000,
+        "17": 1378000,
+        "23": 1098000,
+        "29": 934000,
+        "35": 816000
+      },
+      "dp": 2000000,
+      "colorName": "Semua Warna",
+      "otr": 20300000
+    },
+    {
+      "colorName": "Semua Warna",
+      "id": "cred-var-beat-smartkey-dp-2500000",
+      "dp": 2500000,
+      "variantId": "var-beat-smartkey",
+      "colorId": "ALL",
+      "modelId": "model-beat",
+      "otr": 20300000,
+      "installments": {
+        "11": 1926000,
+        "17": 1340000,
+        "23": 1068000,
+        "29": 908000,
+        "35": 793000
+      }
+    },
+    {
+      "variantId": "var-beat-smartkey",
+      "otr": 20300000,
+      "installments": {
+        "11": 1872000,
+        "17": 1303000,
+        "23": 1038000,
+        "29": 883000,
+        "35": 771000
+      },
+      "id": "cred-var-beat-smartkey-dp-3000000",
+      "modelId": "model-beat",
+      "colorId": "ALL",
+      "colorName": "Semua Warna",
+      "dp": 3000000
+    },
+    {
+      "variantId": "var-beat-street",
+      "id": "cred-var-beat-street-col-beat-st-hitam-2000000",
+      "modelId": "model-beat",
+      "colorId": "ALL",
+      "installments": {
+        "11": 1931000,
+        "17": 1344000,
+        "23": 1071000,
+        "29": 911000,
+        "35": 796000
+      },
+      "dp": 2000000,
+      "colorName": "Semua Warna",
+      "otr": 19850000
+    },
+    {
+      "colorId": "ALL",
+      "modelId": "model-beat",
+      "id": "cred-var-beat-street-dp-2500000",
+      "variantId": "var-beat-street",
+      "otr": 19850000,
+      "installments": {
+        "11": 1877000,
+        "17": 1306000,
+        "23": 1041000,
+        "29": 885000,
+        "35": 773000
+      },
+      "colorName": "Semua Warna",
+      "dp": 2500000
+    },
+    {
+      "id": "cred-var-beat-street-dp-3000000",
+      "colorName": "Semua Warna",
+      "colorId": "ALL",
+      "modelId": "model-beat",
+      "variantId": "var-beat-street",
+      "installments": {
+        "11": 1823000,
+        "17": 1269000,
+        "23": 1011000,
+        "29": 860000,
+        "35": 751000
+      },
+      "dp": 3000000,
+      "otr": 19850000
+    },
+    {
+      "colorName": "Semua Warna",
+      "dp": 2000000,
+      "otr": 22950000,
+      "colorId": "ALL",
+      "modelId": "model-scoopy",
+      "installments": {
+        "11": 2266000,
+        "17": 1577000,
+        "23": 1257000,
+        "29": 1069000,
+        "35": 934000
+      },
+      "variantId": "var-scoopy-fashion",
+      "id": "cred-var-scoopy-fashion-col-scoopy-fsh-cream-2000000"
+    },
+    {
+      "dp": 2500000,
+      "colorName": "Semua Warna",
+      "modelId": "model-scoopy",
+      "colorId": "ALL",
+      "installments": {
+        "11": 2212000,
+        "17": 1540000,
+        "23": 1227000,
+        "29": 1044000,
+        "35": 911000
+      },
+      "otr": 22950000,
+      "variantId": "var-scoopy-fashion",
+      "id": "cred-var-scoopy-fashion-dp-2500000"
+    },
+    {
+      "installments": {
+        "11": 2158000,
+        "17": 1502000,
+        "23": 1197000,
+        "29": 1018000,
+        "35": 889000
+      },
+      "colorName": "Semua Warna",
+      "dp": 3000000,
+      "otr": 22950000,
+      "colorId": "ALL",
+      "modelId": "model-scoopy",
+      "id": "cred-var-scoopy-fashion-dp-3000000",
+      "variantId": "var-scoopy-fashion"
+    },
+    {
+      "modelId": "model-scoopy",
+      "colorId": "ALL",
+      "variantId": "var-scoopy-prestige",
+      "id": "cred-var-scoopy-prestige-col-scoopy-prs-putih-2000000",
+      "otr": 23750000,
+      "dp": 2000000,
+      "colorName": "Semua Warna",
+      "installments": {
+        "11": 2353000,
+        "17": 1638000,
+        "23": 1305000,
+        "29": 1110000,
+        "35": 969000
+      }
+    },
+    {
+      "dp": 2500000,
+      "colorId": "ALL",
+      "modelId": "model-scoopy",
+      "variantId": "var-scoopy-prestige",
+      "id": "cred-var-scoopy-prestige-dp-2500000",
+      "installments": {
+        "11": 2299000,
+        "17": 1600000,
+        "23": 1275000,
+        "29": 1084000,
+        "35": 947000
+      },
+      "colorName": "Semua Warna",
+      "otr": 23750000
+    },
+    {
+      "dp": 3000000,
+      "variantId": "var-scoopy-prestige",
+      "otr": 23750000,
+      "modelId": "model-scoopy",
+      "colorId": "ALL",
+      "colorName": "Semua Warna",
+      "id": "cred-var-scoopy-prestige-dp-3000000",
+      "installments": {
+        "11": 2245000,
+        "17": 1562000,
+        "23": 1245000,
+        "29": 1059000,
+        "35": 925000
+      }
+    },
+    {
+      "variantId": "var-vario125-cbs",
+      "id": "cred-var-vario125-cbs-col-v125-cbs-merah-2000000",
+      "otr": 23650000,
+      "colorId": "ALL",
+      "modelId": "model-vario-125",
+      "colorName": "Semua Warna",
+      "dp": 2000000,
+      "installments": {
+        "11": 2342000,
+        "17": 1630000,
+        "23": 1299000,
+        "29": 1105000,
+        "35": 965000
+      }
+    },
+    {
+      "modelId": "model-vario-125",
+      "colorId": "ALL",
+      "id": "cred-var-vario125-cbs-dp-2500000",
+      "colorName": "Semua Warna",
+      "otr": 23650000,
+      "installments": {
+        "11": 2288000,
+        "17": 1592000,
+        "23": 1269000,
+        "29": 1079000,
+        "35": 943000
+      },
+      "variantId": "var-vario125-cbs",
+      "dp": 2500000
+    },
+    {
+      "installments": {
+        "11": 2234000,
+        "17": 1555000,
+        "23": 1239000,
+        "29": 1054000,
+        "35": 920000
+      },
+      "dp": 3000000,
+      "variantId": "var-vario125-cbs",
+      "id": "cred-var-vario125-cbs-dp-3000000",
+      "colorId": "ALL",
+      "modelId": "model-vario-125",
+      "colorName": "Semua Warna",
+      "otr": 23650000
+    },
+    {
+      "installments": {
+        "11": 2521000,
+        "17": 1754000,
+        "23": 1398000,
+        "29": 1189000,
+        "35": 1039000
+      },
+      "colorName": "Semua Warna",
+      "dp": 2000000,
+      "variantId": "var-vario125-cbs-iss",
+      "id": "cred-var-vario125-cbs-iss-col-v125-iss-biru-2000000",
+      "colorId": "ALL",
+      "modelId": "model-vario-125",
+      "otr": 25300000
+    },
+    {
+      "id": "cred-var-vario125-cbs-iss-dp-2500000",
+      "installments": {
+        "11": 2467000,
+        "17": 1717000,
+        "23": 1368000,
+        "29": 1164000,
+        "35": 1016000
+      },
+      "colorName": "Semua Warna",
+      "modelId": "model-vario-125",
+      "colorId": "ALL",
+      "dp": 2500000,
+      "otr": 25300000,
+      "variantId": "var-vario125-cbs-iss"
+    },
+    {
+      "id": "cred-var-vario125-cbs-iss-dp-3000000",
+      "variantId": "var-vario125-cbs-iss",
+      "modelId": "model-vario-125",
+      "colorId": "ALL",
+      "installments": {
+        "11": 2412000,
+        "17": 1679000,
+        "23": 1338000,
+        "29": 1138000,
+        "35": 994000
+      },
+      "colorName": "Semua Warna",
+      "otr": 25300000,
+      "dp": 3000000
+    },
+    {
+      "dp": 2500000,
+      "variantId": "var-vario160-cbs",
+      "colorId": "ALL",
+      "modelId": "model-vario-160",
+      "otr": 27600000,
+      "installments": {
+        "11": 2715000,
+        "17": 1890000,
+        "23": 1506000,
+        "29": 1281000,
+        "35": 1119000
+      },
+      "id": "cred-var-vario160-cbs-col-v160-cbs-merah-2500000",
+      "colorName": "Semua Warna"
+    },
+    {
+      "id": "cred-var-vario160-cbs-dp-3000000",
+      "variantId": "var-vario160-cbs",
+      "otr": 27600000,
+      "installments": {
+        "11": 2661000,
+        "17": 1852000,
+        "23": 1476000,
+        "29": 1255000,
+        "35": 1096000
+      },
+      "colorName": "Semua Warna",
+      "dp": 3000000,
+      "modelId": "model-vario-160",
+      "colorId": "ALL"
+    },
+    {
+      "colorName": "Semua Warna",
+      "otr": 27600000,
+      "id": "cred-var-vario160-cbs-dp-3500000",
+      "variantId": "var-vario160-cbs",
+      "colorId": "ALL",
+      "modelId": "model-vario-160",
+      "dp": 3500000,
+      "installments": {
+        "11": 2607000,
+        "17": 1815000,
+        "23": 1446000,
+        "29": 1230000,
+        "35": 1074000
+      }
+    },
+    {
+      "otr": 30450000,
+      "modelId": "model-vario-160",
+      "colorId": "ALL",
+      "colorName": "Semua Warna",
+      "id": "cred-var-vario160-abs-col-v160-abs-hitam-2500000",
+      "variantId": "var-vario160-abs",
+      "dp": 2500000,
+      "installments": {
+        "11": 3024000,
+        "17": 2104000,
+        "23": 1677000,
+        "29": 1426000,
+        "35": 1246000
+      }
+    },
+    {
+      "colorId": "ALL",
+      "modelId": "model-vario-160",
+      "id": "cred-var-vario160-abs-dp-3000000",
+      "installments": {
+        "11": 2970000,
+        "17": 2067000,
+        "23": 1647000,
+        "29": 1401000,
+        "35": 1223000
+      },
+      "colorName": "Semua Warna",
+      "dp": 3000000,
+      "otr": 30450000,
+      "variantId": "var-vario160-abs"
+    },
+    {
+      "colorName": "Semua Warna",
+      "otr": 30450000,
+      "id": "cred-var-vario160-abs-dp-3500000",
+      "variantId": "var-vario160-abs",
+      "installments": {
+        "11": 2916000,
+        "17": 2029000,
+        "23": 1617000,
+        "29": 1375000,
+        "35": 1201000
+      },
+      "dp": 3500000,
+      "modelId": "model-vario-160",
+      "colorId": "ALL"
+    },
+    {
+      "colorId": "ALL",
+      "modelId": "model-pcx",
+      "installments": {
+        "11": 3235000,
+        "17": 2251000,
+        "23": 1794000,
+        "29": 1526000,
+        "35": 1333000
+      },
+      "id": "cred-var-pcx-cbs-col-pcx-cbs-hitam-3500000",
+      "otr": 33400000,
+      "variantId": "var-pcx-cbs",
+      "dp": 3500000,
+      "colorName": "Semua Warna"
+    },
+    {
+      "colorId": "ALL",
+      "modelId": "model-pcx",
+      "dp": 4000000,
+      "variantId": "var-pcx-cbs",
+      "otr": 33400000,
+      "id": "cred-var-pcx-cbs-dp-4000000",
+      "installments": {
+        "11": 3181000,
+        "17": 2214000,
+        "23": 1764000,
+        "29": 1500000,
+        "35": 1310000
+      },
+      "colorName": "Semua Warna"
+    },
+    {
+      "dp": 4500000,
+      "colorId": "ALL",
+      "modelId": "model-pcx",
+      "installments": {
+        "11": 3126000,
+        "17": 2176000,
+        "23": 1734000,
+        "29": 1475000,
+        "35": 1288000
+      },
+      "colorName": "Semua Warna",
+      "otr": 33400000,
+      "id": "cred-var-pcx-cbs-dp-4500000",
+      "variantId": "var-pcx-cbs"
+    },
+    {
+      "otr": 36900000,
+      "installments": {
+        "11": 3613000,
+        "17": 2515000,
+        "23": 2004000,
+        "29": 1705000,
+        "35": 1489000
+      },
+      "dp": 3500000,
+      "modelId": "model-pcx",
+      "colorId": "ALL",
+      "colorName": "Semua Warna",
+      "variantId": "var-pcx-abs",
+      "id": "cred-var-pcx-abs-col-pcx-abs-hitam-3500000"
+    },
+    {
+      "dp": 4000000,
+      "variantId": "var-pcx-abs",
+      "modelId": "model-pcx",
+      "colorId": "ALL",
+      "id": "cred-var-pcx-abs-dp-4000000",
+      "colorName": "Semua Warna",
+      "installments": {
+        "11": 3559000,
+        "17": 2477000,
+        "23": 1974000,
+        "29": 1679000,
+        "35": 1466000
+      },
+      "otr": 36900000
+    },
+    {
+      "installments": {
+        "11": 3505000,
+        "17": 2440000,
+        "23": 1944000,
+        "29": 1654000,
+        "35": 1444000
+      },
+      "variantId": "var-pcx-abs",
+      "dp": 4500000,
+      "colorId": "ALL",
+      "modelId": "model-pcx",
+      "otr": 36900000,
+      "colorName": "Semua Warna",
+      "id": "cred-var-pcx-abs-dp-4500000"
+    },
+    {
+      "id": "cred-var-adv-cbs-col-adv-cbs-hitam-3500000",
+      "colorId": "ALL",
+      "modelId": "model-adv",
+      "otr": 36550000,
+      "colorName": "Semua Warna",
+      "dp": 3500000,
+      "installments": {
+        "11": 3575000,
+        "17": 2488000,
+        "23": 1983000,
+        "29": 1687000,
+        "35": 1473000
+      },
+      "variantId": "var-adv-cbs"
+    },
+    {
+      "dp": 4000000,
+      "installments": {
+        "11": 3521000,
+        "17": 2451000,
+        "23": 1953000,
+        "29": 1661000,
+        "35": 1451000
+      },
+      "variantId": "var-adv-cbs",
+      "id": "cred-var-adv-cbs-dp-4000000",
+      "colorName": "Semua Warna",
+      "colorId": "ALL",
+      "modelId": "model-adv",
+      "otr": 36550000
+    },
+    {
+      "colorName": "Semua Warna",
+      "id": "cred-var-adv-cbs-dp-4500000",
+      "dp": 4500000,
+      "otr": 36550000,
+      "modelId": "model-adv",
+      "colorId": "ALL",
+      "variantId": "var-adv-cbs",
+      "installments": {
+        "11": 3467000,
+        "17": 2413000,
+        "23": 1923000,
+        "29": 1636000,
+        "35": 1429000
+      }
+    },
+    {
+      "variantId": "var-adv-abs",
+      "colorId": "ALL",
+      "modelId": "model-adv",
+      "dp": 3500000,
+      "installments": {
+        "11": 3932000,
+        "17": 2737000,
+        "23": 2181000,
+        "29": 1855000,
+        "35": 1620000
+      },
+      "colorName": "Semua Warna",
+      "id": "cred-var-adv-abs-col-adv-abs-hitam-3500000",
+      "otr": 39850000
+    },
+    {
+      "dp": 4000000,
+      "installments": {
+        "11": 3878000,
+        "17": 2699000,
+        "23": 2151000,
+        "29": 1830000,
+        "35": 1598000
+      },
+      "colorId": "ALL",
+      "modelId": "model-adv",
+      "colorName": "Semua Warna",
+      "id": "cred-var-adv-abs-dp-4000000",
+      "variantId": "var-adv-abs",
+      "otr": 39850000
+    },
+    {
+      "id": "cred-var-adv-abs-dp-4500000",
+      "variantId": "var-adv-abs",
+      "installments": {
+        "11": 3824000,
+        "17": 2662000,
+        "23": 2121000,
+        "29": 1804000,
+        "35": 1576000
+      },
+      "modelId": "model-adv",
+      "colorId": "ALL",
+      "dp": 4500000,
+      "otr": 39850000,
+      "colorName": "Semua Warna"
+    },
+    {
+      "otr": 28250000,
+      "id": "cred-var-stylo-cbs-col-stylo-cbs-cream-2500000",
+      "installments": {
+        "11": 2786000,
+        "17": 1939000,
+        "23": 1545000,
+        "29": 1314000,
+        "35": 1148000
+      },
+      "variantId": "var-stylo-cbs",
+      "colorId": "ALL",
+      "modelId": "model-stylo",
+      "colorName": "Semua Warna",
+      "dp": 2500000
+    },
+    {
+      "colorId": "ALL",
+      "modelId": "model-stylo",
+      "id": "cred-var-stylo-cbs-dp-3000000",
+      "colorName": "Semua Warna",
+      "installments": {
+        "11": 2732000,
+        "17": 1901000,
+        "23": 1515000,
+        "29": 1289000,
+        "35": 1125000
+      },
+      "otr": 28250000,
+      "variantId": "var-stylo-cbs",
+      "dp": 3000000
+    },
+    {
+      "variantId": "var-stylo-cbs",
+      "otr": 28250000,
+      "dp": 3500000,
+      "installments": {
+        "11": 2678000,
+        "17": 1864000,
+        "23": 1485000,
+        "29": 1263000,
+        "35": 1103000
+      },
+      "modelId": "model-stylo",
+      "colorName": "Semua Warna",
+      "colorId": "ALL",
+      "id": "cred-var-stylo-cbs-dp-3500000"
+    },
+    {
+      "installments": {
+        "11": 3110000,
+        "17": 2165000,
+        "23": 1725000,
+        "29": 1467000,
+        "35": 1281000
+      },
+      "variantId": "var-stylo-abs",
+      "dp": 2500000,
+      "otr": 31250000,
+      "colorName": "Semua Warna",
+      "id": "cred-var-stylo-abs-col-stylo-abs-hijau-2500000",
+      "colorId": "ALL",
+      "modelId": "model-stylo"
+    },
+    {
+      "id": "cred-var-stylo-abs-dp-3000000",
+      "installments": {
+        "11": 3056000,
+        "17": 2127000,
+        "23": 1695000,
+        "29": 1442000,
+        "35": 1259000
+      },
+      "colorName": "Semua Warna",
+      "modelId": "model-stylo",
+      "colorId": "ALL",
+      "variantId": "var-stylo-abs",
+      "otr": 31250000,
+      "dp": 3000000
+    },
+    {
+      "colorName": "Semua Warna",
+      "dp": 3500000,
+      "modelId": "model-stylo",
+      "colorId": "ALL",
+      "id": "cred-var-stylo-abs-dp-3500000",
+      "installments": {
+        "11": 3002000,
+        "17": 2089000,
+        "23": 1665000,
+        "29": 1416000,
+        "35": 1237000
+      },
+      "variantId": "var-stylo-abs",
+      "otr": 31250000
+    }
+  ],
+  "promos": [
+    {
+      "whatsappText": "Assalamualaikum Pak Zaenal, saya tertarik dengan Gebyar Promo Kredit Honda Beat & Scoopy Parungkuda. Mohon info syaratnya.",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "period": "1 Oktober – 30 November 2026",
+      "id": "promo-1",
+      "linkUrl": "#simulasi",
+      "description": "Dapatkan subsidi uang muka (DP) spesial mulai Rp 1.500.000 serta potongan tenor hingga 2x cicilan untuk pengajuan kredit All New Honda BeAT dan Honda Scoopy di wilayah Parungkuda, Cicurug, Cibadak, dan Kabupaten Sukabumi.",
+      "highlightText": "DP Mulai Rp 1,5 Juta · Potongan 2x Angsuran",
+      "isActive": true,
+      "imageUrl": "/src/assets/images/motor_matic_sporty_red_1790867362954.jpg",
+      "title": "Gebyar Promo Kredit Honda Beat & Scoopy Parungkuda"
+    },
+    {
+      "isActive": true,
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "imageUrl": "/src/assets/images/motor_maxi_adventure_black_1790867393156.jpg",
+      "description": "Upgrade motor lama Anda ke lini skutik 160cc eSP+ bertenaga tinggi! Gratis oli mesin 1 tahun, servis gratis AHASS 4x, jaket eksklusif Honda, serta proses persetujuan leasing dalam 24 jam.",
+      "highlightText": "Gratis Servis & Oli 1 Tahun + Jaket Eksklusif",
+      "id": "promo-2",
+      "title": "Program Spesial Matic Besar 160cc: Vario 160, Stylo 160 & PCX 160",
+      "whatsappText": "Assalamualaikum Pak Zaenal, saya ingin menanyakan Program Spesial Matic Besar 160cc (Vario 160 / Stylo / PCX).",
+      "period": "1 Oktober – 31 Desember 2026",
+      "linkUrl": "#simulasi"
+    },
+    {
+      "id": "promo-3",
+      "description": "Khusus konsumen yang pernah membeli motor di PT Selamat Lestari Mandiri atau pembelian secara Cash, nikmati cashback langsung dan pengantaran unit gratis hari yang sama untuk stok Ready.",
+      "highlightText": "Diskon Cash & Gratis Ongkir Se-Sukabumi",
+      "title": "Promo Cash & Repeat Order Konsumen Setia PT Selamat Lestari Mandiri",
+      "isActive": true,
+      "period": "Berlaku Sepanjang Tahun 2026",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "imageUrl": "/src/assets/images/motor_scooter_retro_cream_1790867381638.jpg",
+      "linkUrl": "#katalog",
+      "whatsappText": "Assalamualaikum Pak Zaenal, saya ingin menanyakan harga spesial pembelian Cash / Repeat Order Honda."
+    }
+  ],
+  "articles": [
+    {
+      "id": "art-1",
+      "title": "Alur & Cara Pembelian Motor Honda Secara Kredit di Parungkuda",
+      "publishedDate": "2026-10-01",
+      "summary": "Panduan lengkap tahapan pengajuan kredit motor Honda dari rumah tanpa harus bolak-balik ke dealer hingga motor diantar ke garasi Anda.",
+      "content": "Membeli motor Honda secara kredit di PT Selamat Lestari Mandiri Cabang Parungkuda kini sangat praktis dan dapat diproses langsung dari rumah Anda.\n\n1. Pilih Tipe Motor, Warna, DP & Tenor\nGunakan fitur Katalog dan Simulasi Kredit di website ini untuk melihat angsuran bulanan sesuai kemampuan anggaran Anda.\n\n2. Konsultasi & Pengiriman Berkas via WhatsApp\nKlik tombol \"Ajukan / Pesan via WhatsApp\" kepada Zaenal Abidin (083806109569). Anda cukup mengirimkan foto dokumen persyaratan melalui WhatsApp atau tim kami yang menjemput berkas ke rumah Anda.\n\n3. Verifikasi / Survei Singkat Leasing\nTim leasing rekanan resmi (FIFGROUP, Adira Finance, OTO, MCF/MAF) akan melakukan verifikasi data singkat melalui telepon atau kunjungan ramah ke tempat tinggal.\n\n4. Persetujuan (ACC) & Pengiriman Unit Motor\nSetelah pengajuan disetujui, unit motor Honda baru langsung dikirim ke rumah Anda. Pembayaran uang muka (DP) dilakukan secara aman saat motor tiba di rumah (COD) atau di kasir resmi dealer.",
+      "isPublished": true,
+      "category": "Panduan Kredit",
+      "slug": "alur-pembelian-motor-secara-kredit",
+      "imageUrl": "/src/assets/images/dealer_showroom_handover_1790867406762.jpg"
+    },
+    {
+      "imageUrl": "/src/assets/images/hero_honda_showroom_1790867348852.jpg",
+      "isPublished": true,
+      "slug": "syarat-dokumen-pembelian-kredit-dan-cash",
+      "category": "Syarat & Dokumen",
+      "title": "Syarat Dokumen Pembelian Kredit & Cash Motor Honda",
+      "id": "art-2",
+      "publishedDate": "2026-09-28",
+      "content": "Agar proses pengajuan motor Honda Anda berjalan lancar dan disetujui dalam waktu singkat, berikut adalah dokumen yang perlu dipersiapkan:\n\nA. Syarat Pembelian Cash (Tunai):\n• Foto KTP Pemohon (untuk domisili Sukabumi & sekitarnya)\n• Foto Kartu Keluarga (KK) untuk keperluan registrasi STNK dan BPKB\n\nB. Syarat Pembelian Kredit Perorangan (Karyawan / Umum):\n• Foto KTP Pemohon dan KTP Pasangan (jika sudah menikah) atau KTP Orang Tua (jika belum menikah)\n• Foto Kartu Keluarga (KK) terbaru\n• Bukti penghasilan: Slip Gaji / ID Card Karyawan / Rekening Koran 3 bulan terakhir\n• Bukti tempat tinggal: Rekening Listrik (Token/Pascabayar) atau PBB\n\nC. Syarat Pembelian Kredit untuk Wiraswasta / Pedagang:\n• Foto KTP Suami & Istri + Kartu Keluarga (KK)\n• Foto tempat usaha / warung / SKU dari desa setempat\n\nSeluruh dokumen cukup difoto dengan jelas dan dikirimkan ke WhatsApp Marketing Zaenal Abidin: 083806109569.",
+      "summary": "Daftar dokumen yang perlu disiapkan untuk pembelian tunai (Cash) maupun kredit bagi Karyawan, Wiraswasta, dan Perusahaan."
+    },
+    {
+      "category": "Tips Finansial",
+      "content": "Banyak calon konsumen bingung menentukan antara DP rendah atau angsuran bulanan yang ringan. Berikut tips praktis dari kami:\n\n1. Gunakan Aturan 30% Penghasilan Bulanan\nPastikan nominal angsuran bulanan motor tidak melebihi 30% dari total penghasilan bulanan bersih keluarga Anda agar kebutuhan harian tetap terjaga.\n\n2. Keuntungan Memilih DP Lebih Besar\nSemakin besar uang muka (DP) yang Anda bayarkan di awal, semakin kecil pokok pembiayaan sehingga cicilan bulanan jauh lebih hemat dan peluang persetujuan (ACC) leasing menjadi sangat tinggi.\n\n3. Memilih Tenor: 11, 17, 23, 29, atau 35 Bulan?\n• Tenor 11 – 17 Bulan: Cocok bagi Anda yang ingin cepat lunas dengan total bunga paling rendah.\n• Tenor 23 – 29 Bulan: Pilihan paling seimbang antara besaran angsuran dan durasi kredit.\n• Tenor 35 Bulan: Solusi terbaik untuk mendapatkan angsuran bulanan paling ringan.",
+      "summary": "Cara menentukan uang muka (DP) dan jangka waktu cicilan (11 hingga 35 bulan) agar cicilan bulanan tetap ringan.",
+      "title": "Tips Cerdas Memilih DP dan Tenor Cicilan Motor yang Tepat",
+      "isPublished": true,
+      "imageUrl": "/src/assets/images/motor_matic_sporty_red_1790867362954.jpg",
+      "publishedDate": "2026-09-24",
+      "id": "art-3",
+      "slug": "tips-memilih-dp-dan-tenor-kredit-motor"
+    },
+    {
+      "id": "art-4",
+      "slug": "informasi-stnk-bpkb-dan-servis-ahass",
+      "isPublished": true,
+      "imageUrl": "/src/assets/images/motor_scooter_retro_cream_1790867381638.jpg",
+      "publishedDate": "2026-09-19",
+      "content": "Setiap pembelian motor baru di PT Selamat Lestari Mandiri Cabang Parungkuda dilengkapi perlindungan resmi dan layanan administrasi kendaraan:\n\n1. Estimasi STNK & Plat Nomor Resmi Samsat Sukabumi\nProses pembuatan STNK dan Plat Nomor untuk motor baru memakan waktu rata-rata 14 – 21 hari kerja. Saat STNK sudah selesai, kami akan langsung menghubungi Anda via WhatsApp dan STNK dapat diambil di dealer atau diantar ke rumah.\n\n2. Pengambilan BPKB\n• Untuk pembelian Cash: BPKB dapat diambil di dealer setelah selesai dari Samsat (estimasi 2 – 3 bulan).\n• Untuk pembelian Kredit: BPKB disimpan dengan aman di kantor leasing resmi dan dapat diambil langsung setelah angsuran terakhir lunas.\n\n3. Kupon Perawatan Berkala (KPB) & Garansi 5 Tahun\nGunakan fasilitas Servis Gratis hingga 4 kali di bengkel resmi AHASS PT Selamat Lestari Mandiri Parungkuda serta nikmati Garansi Rangka 5 Tahun tanpa batas jarak tempuh.",
+      "summary": "Estimasi waktu jadi STNK & Plat Nomor wilayah Kabupaten Sukabumi serta panduan klaim servis gratis KPB di bengkel AHASS.",
+      "title": "Informasi Pengambilan STNK, Plat Nomor, BPKB & Servis Gratis AHASS",
+      "category": "Layanan Purna Jual"
+    }
+  ],
+  "testimonials": [
+    {
+      "customerName": "Kak Andi Pratama",
+      "customerPhotoUrl": "/src/assets/images/dealer_showroom_handover_1790867406762.jpg",
+      "handoverPhotoUrl": "/src/assets/images/dealer_showroom_handover_1790867406762.jpg",
+      "motorName": "Honda Beat CBS Biru",
+      "caption": "Terima kasih Kak Andi sudah mempercayakan pembelian Honda Beat CBS kepada kami di PT Selamat Lestari Mandiri Cabang Parungkuda. Proses berkas via WhatsApp pagi, sore motor sudah mendarat di rumah!",
+      "id": "testi-1",
+      "isPublished": true,
+      "handoverDate": "2026-09-29",
+      "customerLocation": "Parungkuda, Sukabumi"
+    },
+    {
+      "customerLocation": "Cicurug, Sukabumi",
+      "id": "testi-2",
+      "motorName": "Honda Scoopy Fashion Cream",
+      "caption": "Alhamdulillah serah terima unit Honda Scoopy Fashion Cream kepada Ibu Siti Rahmawati di Cicurug. Terima kasih atas kepercayaannya kepada Kang Zaenal Abidin Honda Parungkuda.",
+      "customerName": "Ibu Siti Rahmawati",
+      "handoverPhotoUrl": "/src/assets/images/dealer_showroom_handover_1790867406762.jpg",
+      "isPublished": true,
+      "customerPhotoUrl": "/src/assets/images/motor_scooter_retro_cream_1790867381638.jpg",
+      "handoverDate": "2026-09-25"
+    },
+    {
+      "id": "testi-3",
+      "customerLocation": "Cibadak, Sukabumi",
+      "handoverDate": "2026-09-18",
+      "caption": "Terima kasih Bapak Hendra Gunawan dari Cibadak yang telah meminang Honda PCX 160 CBS Hitam. Pelayanan ramah, DP transparan sesuai simulasi website, dan bonus helm + jaket lengkap!",
+      "customerName": "Bapak Hendra Gunawan",
+      "motorName": "Honda PCX 160 CBS Hitam",
+      "handoverPhotoUrl": "/src/assets/images/dealer_showroom_handover_1790867406762.jpg",
+      "isPublished": true,
+      "customerPhotoUrl": "/src/assets/images/motor_maxi_adventure_black_1790867393156.jpg"
+    }
+  ],
+  "uploads": []
+}

@@ -1,0 +1,171 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 1. Global Safety Net (Default-Deny Catch-All)
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // 2. Hardened Global Primitives
+    function isValidId(id) {
+      return id is string && id.size() >= 1 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isAdmin() {
+      return isSignedIn() &&
+        request.auth.token.email_verified == true &&
+        (
+          request.auth.token.email == 'ciwanguncity1705@gmail.com' ||
+          exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+        );
+    }
+
+    function hasServerSyncToken(data) {
+      return data.syncToken is string &&
+        data.syncToken.size() >= 16 &&
+        data.syncToken.size() <= 128 &&
+        data.syncToken == 'zaenal-honda-parungkuda-cloud-sync-2026';
+    }
+
+    // 3. Entity Validation Blueprints (Anti-Update-Gap)
+    function isValidDealerStoreSection(data, sectionId) {
+      return data.keys().hasAll(['sectionKey', 'payload', 'syncToken', 'updatedAt']) &&
+        data.keys().hasOnly(['sectionKey', 'payload', 'syncToken', 'updatedAt']) &&
+        data.sectionKey is string &&
+        data.sectionKey.size() >= 1 &&
+        data.sectionKey.size() <= 64 &&
+        data.sectionKey.matches('^[a-zA-Z0-9_\\-]+$') &&
+        data.sectionKey == sectionId &&
+        data.payload is map &&
+        data.payload.keys().size() <= 50 &&
+        data.syncToken is string &&
+        data.syncToken.size() >= 16 &&
+        data.syncToken.size() <= 128 &&
+        data.syncToken.matches('^[a-zA-Z0-9_\\-]+$') &&
+        data.updatedAt is string &&
+        data.updatedAt.size() >= 10 &&
+        data.updatedAt.size() <= 64;
+    }
+
+    function isValidDealerUploadChunk(data) {
+      return data.keys().hasAll(['uploadId', 'chunkIndex', 'mimeType', 'filename', 'data', 'syncToken', 'createdAt']) &&
+        data.keys().hasOnly(['uploadId', 'chunkIndex', 'mimeType', 'filename', 'data', 'syncToken', 'createdAt']) &&
+        data.uploadId is string &&
+        data.uploadId.size() >= 1 &&
+        data.uploadId.size() <= 128 &&
+        data.uploadId.matches('^[a-zA-Z0-9_\\-]+$') &&
+        data.chunkIndex is int &&
+        data.chunkIndex >= 0 &&
+        data.chunkIndex <= 50 &&
+        data.mimeType is string &&
+        data.mimeType.size() >= 3 &&
+        data.mimeType.size() <= 64 &&
+        data.filename is string &&
+        data.filename.size() >= 1 &&
+        data.filename.size() <= 255 &&
+        data.data is string &&
+        data.data.size() >= 1 &&
+        data.data.size() <= 700000 &&
+        data.syncToken is string &&
+        data.syncToken.size() >= 16 &&
+        data.syncToken.size() <= 128 &&
+        data.syncToken.matches('^[a-zA-Z0-9_\\-]+$') &&
+        data.createdAt is string &&
+        data.createdAt.size() >= 10 &&
+        data.createdAt.size() <= 64;
+    }
+
+    function isValidAdminProfile(data, adminId) {
+      return data.keys().hasAll(['uid', 'email', 'role', 'createdAt']) &&
+        data.keys().hasOnly(['uid', 'email', 'role', 'createdAt']) &&
+        data.uid is string &&
+        data.uid.size() >= 1 &&
+        data.uid.size() <= 128 &&
+        data.uid.matches('^[a-zA-Z0-9_\\-]+$') &&
+        data.uid == adminId &&
+        data.email is string &&
+        data.email.size() >= 3 &&
+        data.email.size() <= 254 &&
+        data.role is string &&
+        data.role.size() == 5 &&
+        data.role == 'admin' &&
+        data.createdAt is string &&
+        data.createdAt.size() >= 10 &&
+        data.createdAt.size() <= 64;
+    }
+
+    // 4. Collection Rules: /dealer_store/{sectionId}
+    match /dealer_store/{sectionId} {
+      allow get: if isValidId(sectionId);
+      allow list: if false;
+
+      allow create: if isValidId(sectionId) &&
+        isValidDealerStoreSection(incoming(), sectionId) &&
+        (hasServerSyncToken(incoming()) || isAdmin());
+
+      allow update: if isValidId(sectionId) &&
+        isValidDealerStoreSection(incoming(), sectionId) &&
+        incoming().sectionKey == existing().sectionKey &&
+        incoming().diff(existing()).affectedKeys().hasOnly(['payload', 'syncToken', 'updatedAt']) &&
+        (hasServerSyncToken(incoming()) || isAdmin());
+
+      allow delete: if isValidId(sectionId) && isAdmin();
+    }
+
+    // 5. Collection Rules: /dealer_uploads/{chunkId}
+    match /dealer_uploads/{chunkId} {
+      allow get: if isValidId(chunkId);
+      allow list: if false;
+
+      allow create: if isValidId(chunkId) &&
+        isValidDealerUploadChunk(incoming()) &&
+        (hasServerSyncToken(incoming()) || isAdmin());
+
+      allow update: if isValidId(chunkId) &&
+        isValidDealerUploadChunk(incoming()) &&
+        incoming().uploadId == existing().uploadId &&
+        incoming().chunkIndex == existing().chunkIndex &&
+        incoming().createdAt == existing().createdAt &&
+        incoming().diff(existing()).affectedKeys().hasOnly(['mimeType', 'filename', 'data', 'syncToken']) &&
+        (hasServerSyncToken(incoming()) || isAdmin());
+
+      allow delete: if isValidId(chunkId) && isAdmin();
+    }
+
+    // 6. Collection Rules: /admins/{adminId} (PII Isolated)
+    match /admins/{adminId} {
+      allow get: if isValidId(adminId) && (isOwner(adminId) || isAdmin());
+      allow list: if false;
+
+      allow create: if isValidId(adminId) &&
+        isValidAdminProfile(incoming(), adminId) &&
+        isAdmin();
+
+      allow update: if isValidId(adminId) &&
+        isValidAdminProfile(incoming(), adminId) &&
+        incoming().uid == existing().uid &&
+        incoming().createdAt == existing().createdAt &&
+        incoming().diff(existing()).affectedKeys().hasOnly(['email', 'role']) &&
+        isAdmin();
+
+      allow delete: if isValidId(adminId) && isAdmin();
+    }
+  }
+}

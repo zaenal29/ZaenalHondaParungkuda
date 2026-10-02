@@ -1,0 +1,8 @@
+{
+  "name": "Zaenal Abidin Honda Parungkuda | Dealer Honda Sukabumi",
+  "description": "Informasi motor Honda, promo, simulasi kredit, dan layanan pembelian Honda di Parungkuda, Kabupaten Sukabumi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

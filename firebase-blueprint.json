@@ -1,0 +1,138 @@
+{
+  "entities": {
+    "DealerStoreSection": {
+      "title": "DealerStoreSection",
+      "description": "Stores a persistent section of the dealer application state (siteSettings, users, tenors, motorModels, motorVariants, motorColors, motorImages, motorSpecs, creditSimulations, promos, articles, testimonials, uploadsMeta) as native Firestore maps and lists.",
+      "type": "object",
+      "properties": {
+        "sectionKey": {
+          "type": "string",
+          "description": "Unique identifier of the state section.",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "payload": {
+          "type": "object",
+          "description": "Native Firestore Map containing the structured state data for this section."
+        },
+        "syncToken": {
+          "type": "string",
+          "description": "Server synchronization verification token for authorized persistence.",
+          "minLength": 16,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO-8601 timestamp of the last update.",
+          "minLength": 10,
+          "maxLength": 64
+        }
+      },
+      "required": ["sectionKey", "payload", "syncToken", "updatedAt"]
+    },
+    "DealerUploadChunk": {
+      "title": "DealerUploadChunk",
+      "description": "Stores a bounded base64 chunk (<= 650KB) of an uploaded image asset so uploaded photos persist permanently in Firestore without exceeding the 1MB document limit.",
+      "type": "object",
+      "properties": {
+        "uploadId": {
+          "type": "string",
+          "description": "Unique ID of the parent uploaded image.",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "chunkIndex": {
+          "type": "number",
+          "description": "Zero-based index of this chunk."
+        },
+        "mimeType": {
+          "type": "string",
+          "description": "MIME type of the uploaded image (image/jpeg, image/png, image/webp).",
+          "minLength": 3,
+          "maxLength": 64
+        },
+        "filename": {
+          "type": "string",
+          "description": "Original filename of the uploaded image.",
+          "minLength": 1,
+          "maxLength": 255
+        },
+        "data": {
+          "type": "string",
+          "description": "Base64 encoded payload chunk (strictly bounded <= 700000 chars).",
+          "minLength": 1,
+          "maxLength": 700000
+        },
+        "syncToken": {
+          "type": "string",
+          "description": "Server synchronization verification token for authorized persistence.",
+          "minLength": 16,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO-8601 creation timestamp.",
+          "minLength": 10,
+          "maxLength": 64
+        }
+      },
+      "required": ["uploadId", "chunkIndex", "mimeType", "filename", "data", "syncToken", "createdAt"]
+    },
+    "AdminProfile": {
+      "title": "AdminProfile",
+      "description": "Trusted administrator record for Firebase Auth role verification.",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "description": "Firebase Auth UID of the administrator.",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "Verified email address of the administrator.",
+          "minLength": 3,
+          "maxLength": 254
+        },
+        "role": {
+          "type": "string",
+          "enum": ["admin"],
+          "description": "Fixed admin role.",
+          "minLength": 5,
+          "maxLength": 16
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp.",
+          "minLength": 10,
+          "maxLength": 64
+        }
+      },
+      "required": ["uid", "email", "role", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/dealer_store/{sectionId}": {
+      "schema": { "$ref": "#/entities/DealerStoreSection" },
+      "description": "Persistent cloud storage for each section of the dealer database state."
+    },
+    "/dealer_uploads/{chunkId}": {
+      "schema": { "$ref": "#/entities/DealerUploadChunk" },
+      "description": "Persistent cloud storage for uploaded image chunks."
+    },
+    "/admins/{adminId}": {
+      "schema": { "$ref": "#/entities/AdminProfile" },
+      "description": "Trusted administrator directory."
+    }
+  }
+}
